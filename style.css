@@ -20,7 +20,7 @@ body{
     background-color: var(--almost-white);
 }
 
-body.menu-open::before{
+body.escurecer::before{
     content: "";
     position: fixed;
     height: 100vh;
@@ -70,6 +70,14 @@ header .mobile a{
     color: var(--dark-blue);
     font-size: 1.125rem;
     line-height: 1.5rem;
+}
+
+header nav.mobile.abrir{
+    right: 0;
+}
+
+header .desktop{
+    display: none;
 }
 
 .primeira-seção{
